@@ -32,6 +32,13 @@ h1 {
     text-align: center;
 }
 
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+
 button.signin-btn {
     background-color: #2768B5;
     color: #FFF;
