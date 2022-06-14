@@ -1,0 +1,44 @@
+body.sign-body {
+    background-color: #2768B5;
+}
+
+.container.sign-container {
+    margin-top: 5%;
+}
+
+.card.sign-card {
+    padding: 40px 0px 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+p {
+
+    text-align: center;
+    font-size: 60px;
+
+}
+
+
+#rain {
+    font-size: 30px;
+
+}
+
+h2,
+h1 {
+    text-align: center;
+}
+
+button.signin-btn {
+    background-color: #2768B5;
+    color: #FFF;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.2rem;
+
+
+}
