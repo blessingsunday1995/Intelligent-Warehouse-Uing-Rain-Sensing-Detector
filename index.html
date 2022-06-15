@@ -91,15 +91,17 @@
 
                 console.log(data['weather'][(Object.keys(data['weather']).length) - 1]['rain']);
 
-                if (rain >= 100) {
+                if (rain >= 700) {
 
-                    document.getElementById("rain").innerHTML = rain_detect;
-                    document.getElementById("rain").style.color = "#F70000";
-
-
-                } else if (rain <= 90) {
                     document.getElementById("rain").innerHTML = not_rain;
                     document.getElementById("rain").style.color = "#333";
+
+                  
+
+
+                } else if (rain < 700 ) {
+                    document.getElementById("rain").innerHTML = rain_detect;
+                    document.getElementById("rain").style.color = "#F70000";
 
                 }
 
