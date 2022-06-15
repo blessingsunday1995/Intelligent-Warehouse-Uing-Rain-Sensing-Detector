@@ -80,7 +80,7 @@
             var tm = "°C";
             var rain_detect = " Rain Detected";
             var not_rain = " Rain Not Detected";
-            var url = "https://rainsensor12.000webhostapp.com/api/weather/read_all.php";
+            var url = "https://rainsensor13.000webhostapp.com/api/weather/read_all.php";
             $.getJSON(url, function(data) {
                 var val = data;
                 var humid = (data['weather'][(Object.keys(data['weather']).length) - 1]['hum']);
@@ -117,7 +117,7 @@
         document.getElementById('D1-on').addEventListener('click', function() {
 
 
-            var url = "https://rainsensor12.000webhostapp.com/api/actuator/update.php?id=4&status=on";
+            var url = "https://rainsensor13.000webhostapp.com/api/actuator/update.php?id=4&status=on";
 
 
             const v = document.getElementById("D1-on");
@@ -135,7 +135,7 @@
         document.getElementById('D1-off').addEventListener('click', function() {
 
 
-            var url = "https://rainsensor12.000webhostapp.com/api/actuator/update.php?id=4&status=off";
+            var url = "https://rainsensor13.000webhostapp.com/api/actuator/update.php?id=4&status=off";
 
             const v = document.getElementById("D1-on");
             const a = document.getElementById("D1-off");
